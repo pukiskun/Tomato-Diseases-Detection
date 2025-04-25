@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "FinalBuild",
+    "name": "Agrilens",
     "slug": "FinalBuild",
-    "version": "1.0.0",
+    "version": "1.2.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "icon": "./assets/images/1-logo.png",
+    "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/images/1-logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,12 +17,19 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/images/1-logo.png",
+        "backgroundColor": "#ffffff",
+        "resizeMode": "contain"
+      },
+      "package": "com.skywalkers.Agrilens"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/images/1-logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9dcf0d98-5111-4195-af54-03af417f9d9e"
+      }
     }
   }
 }
